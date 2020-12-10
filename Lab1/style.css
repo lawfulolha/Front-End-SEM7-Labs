@@ -1,0 +1,42 @@
+:root {
+    box-sizing: border-box;
+}
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    height: 100vh;
+}
+
+header, footer{
+    background-color: powderblue;
+    height: 20%;
+}
+
+nav{
+    background-color: lightgray;
+    flex-grow: 1;
+}
+article {
+    background-color: white;
+    flex-grow: 4;
+}
+aside {
+    background-color: lightpink;
+    flex-grow: 1;
+}
+.main-column{
+    flex-grow: 5;
+}
+
+.main-content {
+    height: 60%;
+    display: flex;
+}
